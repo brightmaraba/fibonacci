@@ -1,4 +1,5 @@
 import time
+
 fib_array = [0,1]
 
 def fib(n):
@@ -13,7 +14,7 @@ def fib(n):
 
 if __name__ == "__main__":
     start_time = time.time()
-    print(fib(50))
+    print(fib(500))
     fin_time = time.time()
     print(fin_time - start_time)
 
